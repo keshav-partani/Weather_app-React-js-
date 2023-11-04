@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/cloudy_blue_sky.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.city_detail {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.city_detail input {
+  border: 0px;
+  border-radius: 10px;
+  width: 35%;
+  height: 30px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.today_detail {
+  background-color: rgb(87, 138, 195, 0.5);
+  width: 50%;
+  height: 450px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.weatherPic {
+  flex: 4 5;
+  text-align: center;
+}
+
+.light_black {
+  color: rgb(66, 58, 58);
+}
+
+.weatherDetails {
+  flex: 5 4;
+  font-size: x-large;
+}
+
+.extraInfo {
+  display: flex;
+}
+
+.iconDetail {
+  display: flex;
+  margin: 10px;
+}
+
+.iconDetail {
+  display: flex;
+  margin: 10px;
+}
+
+.forcasting {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.forcasting_details {
+  background-color: rgb(87, 138, 195, 0.5);
+  width: 20%;
+  height: 120px;
+  text-align: center;
+  border-radius: 30px;
+  position: relative;
+  bottom: 60px;
+}
+
+.forcasting_details p {
+  margin: 10px;
+  font-size: large;
+}
+
+.forcasting_details :first-child {
+  font-weight: bold;
+}
+
+.forcasting_details img {
+  width: 30%;
+}

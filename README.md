@@ -1,3 +1,8 @@
+make sure that node modules folder is present
+then npm start (run the project)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
